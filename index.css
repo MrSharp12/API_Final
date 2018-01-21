@@ -1,0 +1,54 @@
+ html{ text-rendering: optimizeLegibility; }   
+    
+    
+    
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./imgs/zen1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text: #faeded
+    /* z-index:-100; */
+    }
+  
+.container {
+    z-index:2;
+}
+  
+.header {
+    margin-top:12%;
+    color:#faeded;
+}
+  
+.header h1 {
+    color:#faeded;
+}
+
+.header h2 { padding-bottom: 24px;}
+
+#openingText{ margin-top: 240px; }
+
+#jokeSetUp {margin-top: 40px; }
+
+
+/* body { my first attempt
+    background-image: url('./imgs/laughing.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
+
+/* #jokeBox p {
+    padding: 4%;
+    text-align: center;
+}
+
+#jokeBox {
+    background-color: white;
+    border: 5px solid black;
+    width: 60%;
+    overflow: auto;
+    height: 300px;
+    padding: 15px;
+} */
+
