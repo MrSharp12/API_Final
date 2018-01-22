@@ -1,15 +1,17 @@
 $(() => {
 
   
-//     const NEW_BUTTON_TITLES = [
-//         'Tell another!', 
-//         'One more?', 
-//         'Jokes...I got em.', 
-//         'Keep going?', 
-//         'And another one.',
-//         'Jokes and Jokes.'
-//     ];
-//     let x = 0;
+    const NEW_BUTTON_TITLES = [
+        'Keep going?',
+        'Tell another!', 
+        'One more?', 
+        'Jokes...I got em.', 
+        'And another one.',
+        'Jokes and jokes.',
+        'Hit me!',
+        'Want another?'
+    ];
+    let x = 0;
 
 $('#tellJoke').click((e) => {
 
@@ -37,10 +39,10 @@ $('#tellJoke').click((e) => {
     }
 
     
-    // $('#tellJoke').on('click', (e) => {
-    //     $('#tellJoke').text(NEW_BUTTON_TITLES[x]);
-    //     x++;
-    //     if (x >= NEW_BUTTON_TITLES.length) x = 0;
-    // })
+    $('#tellJoke').on('click', (e) => {
+        $('#tellJoke').text(NEW_BUTTON_TITLES[x]);
+        x++;
+        if (x >= NEW_BUTTON_TITLES.length) x = 0;
+    })
 });
 
