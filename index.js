@@ -40,6 +40,7 @@ $('#tellJoke').click((e) => {
 
     
     $('#tellJoke').on('click', (e) => {
+        event.preventDefault();
         $('#tellJoke').text(NEW_BUTTON_TITLES[x]);
         x++;
         if (x >= NEW_BUTTON_TITLES.length) x = 0;
